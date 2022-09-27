@@ -13,7 +13,14 @@ Laravel project step-by-step:
     content
 @endsection
 
-6: in web.php you declare the routes
+6: in web.php you declare the routes:
+
+    Route::get('/', function () {
+
+    $variable = ['Home', 'About Us', 'News']; //optional
+
+    return view('view-name', ['datatopass' => $variable]);
+    })->name('name-of-route'); //name optional
 
 7: in the "public" folder you can create a folder for images
 
