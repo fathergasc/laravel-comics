@@ -27,7 +27,7 @@ Laravel project step-by-step:
 8: we can create a "partials" folder inside /resources/sass with multiple css files named conventionally with an underscore in front of the name (ex: _typo.scss) and then we can import them into the app.scss with @import './partials/stylefilename.scss'
 
 9: you can add an array in /config adding a php file containing the array. You can pass the data to a view with 
-    $variable = config('nameofthephpfile.php') 
+    $variable = config('nameofthephpfile') 
     return view('nameoftheview', ['nameofthedatatopass' => $variable])
 
 

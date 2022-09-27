@@ -6,7 +6,7 @@
                 <li class="my-5 mx-3 d-flex justify-space-around align-items-center">
                     <a href="{{$link['url']}}">
                         <img class="product-img" src="images/{{$link['image']}}" alt="{{$link['text']}}">
-                        <span class="uppercase text-white px-3">{{$link['text']}}</span>
+                        <span class="text-uppercase text-white px-3">{{$link['text']}}</span>
                     </a>
                 </li>
                 @endforeach

@@ -4,7 +4,7 @@
     <ul class="">
         @foreach (config('headerLinks') as $link)
             <li class="d-inline-block mx-3" class="({{$link['active']}} == true)?'active':''">
-                <a href="{{$link['url']}}" class="({{$link['active']}} == true)?'active':''">
+                <a href="{{route($link['text'])}}" class="({{$link['active']}} == true)?'active':''">
                     {{$link['text']}}
                 </a>
             </li>

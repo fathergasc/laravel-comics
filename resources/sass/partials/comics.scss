@@ -1,0 +1,71 @@
+@import './vars.scss';
+
+
+main {
+
+    .comics-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        position: relative;
+        padding: 2rem;
+    }
+
+    .current-series {
+        position: absolute;
+        top: 0;
+        transform: translate(0%, -50%);
+        padding: 10px;
+        color: white;
+        background-color: $brand-color;
+    }
+
+    .load-more {
+        cursor: pointer;
+        color: white;
+        background-color: $brand-color;
+        padding: 7px 45px;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        right: 50%;
+        transform: translate(50%);
+
+        &:hover {
+            background-color: $brand-color-dark;
+        }
+    }
+}
+
+.comic-card {
+    min-height: 250px;
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+
+
+    img {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    object-position: 0% 0%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    h4 {
+        fonts-size: 14px;
+    }
+}
+
+
+

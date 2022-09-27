@@ -1,15 +1,27 @@
-@import './partials/header-style.scss';
-@import './partials/vars.scss';
-@import './partials/footer-style.scss';
-
+@import "./partials/header-style.scss";
+@import "./partials/vars.scss";
+@import "./partials/footer-style.scss";
+@import "./partials/comics.scss";
 
 ul {
     list-style: none;
-  }
-  a {
+}
+a {
     text-decoration: none;
-  }
+}
 
-  ul {
-        margin-bottom: 0 !important; // bootstrap puts 1rem as margin-bottom on ul
+ul {
+    margin-bottom: 0 !important; // bootstrap puts 1rem as margin-bottom on ul
+}
+
+main {
+    background-color: #1c1c1c;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text-white.text-uppercase {
+        font-size: 3rem;
+    }
 }
