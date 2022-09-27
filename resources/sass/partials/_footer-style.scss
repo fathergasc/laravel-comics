@@ -1,0 +1,87 @@
+@import "./vars.scss";
+
+#footer_top {
+    background-color: $brand_color;
+
+    .product-img {
+        height: 60px;
+        max-width: 60px;
+    }
+
+    li {
+        span {
+            font-size: 14px;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+footer {
+
+    ul {
+        margin-bottom: 1rem;
+        li a {
+            color: rgb(204, 199, 199);
+        }
+    }
+
+    li:hover {
+        a {
+            color: white;
+        }
+    }
+
+    .footer_top {
+        height: 400px;
+        width: 100%;
+        background-image: url(/images/footer-bg.jpg);
+        background-size: contain;
+        background-position: center;
+
+        .container {
+            height: 100%;
+        }
+    }
+
+    .lists {
+        height: 100%;
+    }
+
+    .big-logo-footer {
+        height: 400px;
+        width: 500px;
+        background-image: url(/images/dc-logo-bg.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer_bot {
+        background-color: #303030;
+        z-index: 1;
+    }
+
+    #sign-up {
+        color: white;
+        outline: 3px solid $brand_color;
+        padding: 0.7rem;
+
+        &:hover {
+            background-color: $brand_color;
+        }
+    }
+
+    #follow {
+        color: #0282f9;
+    }
+
+    .contacts-list {
+        margin-bottom: 0;
+    }
+
+    .scaleonhover:hover {
+        transform: scale(1.1);
+    }
+}

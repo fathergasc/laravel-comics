@@ -1,5 +1,6 @@
 @import './partials/header-style.scss';
 @import './partials/vars.scss';
+@import './partials/footer-style.scss';
 
 
 ul {
@@ -10,5 +11,5 @@ ul {
   }
 
   ul {
-        margin-bottom: 0; // bootstrap puts 1rem as margin-bottom on ul
-    }
+        margin-bottom: 0 !important; // bootstrap puts 1rem as margin-bottom on ul
+}

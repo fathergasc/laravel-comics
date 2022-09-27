@@ -15,8 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $navBarLinks = config('headerLinks');
+    return view('comics');
 
-    return view('comics', ['navBarLinks' => $navBarLinks]);
-    
 })->name('Comics');

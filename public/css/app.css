@@ -51,6 +51,86 @@ header a:hover {
      object-position: 0% 30%;
 }
 
+#footer_top {
+  background-color: #0282f9;
+}
+
+#footer_top .product-img {
+  height: 60px;
+  max-width: 60px;
+}
+
+#footer_top li span {
+  font-size: 14px;
+}
+
+#footer_top li a:hover {
+  transform: scale(1.1);
+}
+
+footer ul {
+  margin-bottom: 1rem;
+}
+
+footer ul li a {
+  color: rgb(204, 199, 199);
+}
+
+footer li:hover a {
+  color: white;
+}
+
+footer .footer_top {
+  height: 400px;
+  width: 100%;
+  background-image: url(/images/footer-bg.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+footer .footer_top .container {
+  height: 100%;
+}
+
+footer .lists {
+  height: 100%;
+}
+
+footer .big-logo-footer {
+  height: 400px;
+  width: 500px;
+  background-image: url(/images/dc-logo-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+footer .footer_bot {
+  background-color: #303030;
+  z-index: 1;
+}
+
+footer #sign-up {
+  color: white;
+  outline: 3px solid #0282f9;
+  padding: 0.7rem;
+}
+
+footer #sign-up:hover {
+  background-color: #0282f9;
+}
+
+footer #follow {
+  color: #0282f9;
+}
+
+footer .contacts-list {
+  margin-bottom: 0;
+}
+
+footer .scaleonhover:hover {
+  transform: scale(1.1);
+}
+
 ul {
   list-style: none;
 }
@@ -60,6 +140,6 @@ a {
 }
 
 ul {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
